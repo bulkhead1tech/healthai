@@ -5,6 +5,10 @@ const token = new mongoose.Schema({
     type: String,
     required: true
   },
+  refresh_token: {
+    type: String,
+    required: true
+  },
 }, {collection:'Token'});
 mongoose.models= {};
 

@@ -25,7 +25,10 @@ const page = () => {
   };
 
 const refresh =async()=>{
-  await fetch("/api/fitrefresh")
+  const response = await fetch("/api/fitrefresh")
+  const data = await response.json()
+  alert(data.message)
+
 }
 const handleSubmit = async(e) => {
       e.preventDefault();
