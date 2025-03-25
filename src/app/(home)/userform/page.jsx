@@ -53,7 +53,7 @@ const handleSubmit = async(e) => {
   
 
   return (
-<div className='h-screen w-screen'>
+<div className='h-[80vh] top-20 bg-black left-0 w-screen absolute'>
         <div className='h-22 flex flex-row justify-end items-center px-5'>
       {manual && <button onClick={()=>setmanual(!manual)} className='h-10 z-10 w-20 px-5 text-black text-xl rounded-lg font-normal font-sans py-2 bg-gradient-to-r from-yellow-500 to-orange-500'>Back</button>
     }

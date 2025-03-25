@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Image from 'next/image';
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
 const chatbot = () => {
@@ -30,7 +31,8 @@ const chatbot = () => {
         <div className=' w-full h-1/4 flex items-center justify-center py-2  '>
         <div className=' h-20 w-full flex items-center gap-x-2 py-2'>
     <input type="text" onInput={(e)=>setinput(e.target.value) } value={input}  className='h-15 outline-none text-white placeholder:text-gray-500 px-5 text-xl w-4/5 rounded-full bg-gray-900 border-black border-2' placeholder='Search Here!'/>
-        <button onClick={handleSubmit} className='border-black border-2 w-15 h-15 rounded-full focus:animate-[ping_0.5s_ease-in-out] bg-gray-900'>s</button>
+        <button onClick={handleSubmit} className='border-black border-2 w-15 h-15 rounded-full focus:animate-[ping_0.5s_ease-in-out] bg-gray-900 flex justify-center items-center'>
+       <Image className='h-5 brightness-50' src={"/vercel.svg"}  height={100} width={100}/>      </button>
         </div>
         </div>
     </div>
