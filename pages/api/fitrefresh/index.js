@@ -7,7 +7,7 @@ const handler = async (req, res) => {
       const url = "https://api.fitbit.com/oauth2/token";
       const params = new URLSearchParams({
         grant_type: "refresh_token",
-        refresh_token: "dd13c2816c950b3538ee7c45e61373c5af6ec2916a3386c1b4cb0585b6a7a1b5",
+        refresh_token: "5cf903abbfb4f8c1558671c565e2b7d5b6068d60c37654e936f92fdecf481966",
         client_id: "23QBVY",
         client_secret: "650befb9fed8392b9bbd6d2b1cd61ecb",
       });
