@@ -34,6 +34,13 @@ export default function page() {
 
        <h1 className="text-3xl font-bold text-black">Anonym Chat</h1>
       </div></Link>
+      <Link href={"/Dass"}>
+      <div className=" flex items-center px-4 gap-x-4 bg-white shadow-cyan-900 shadow-lg rounded-4xl h-20 w-full ">
+      <div className="h-16 w-16 rounded-full border-black border-4 p-2 justify-center items-center flex">
+        <Image alt="hi" src={"https://static.vecteezy.com/system/resources/thumbnails/006/692/321/small/chatting-message-icon-template-black-color-editable-chatting-message-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg"} height={100} width={100}/> </div>
+
+       <h1 className="text-3xl font-bold text-black">Psych Test</h1>
+      </div></Link>
     </div>
     
    </div>

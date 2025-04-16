@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar/>
         <div className='h-screen w-screen bg-black'>
-        {isActive('/profile') || isActive('/profile')  ?<><div className='h-22'>
+        {isActive('/profile') || isActive('/charts')  ?<><div className='h-22'>
 
 </div>
 <div className={`h-14 w-full flex justify-center gap-x-5 items-center px-5 `}>
@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
             {children}
         </div> 
         
-       {!isActive('/')?<Ailogo/>:<></>} 
+       {!isActive('/') && !isActive("/Dass") ?<Ailogo/>:<></>} 
 
 
       </body>
