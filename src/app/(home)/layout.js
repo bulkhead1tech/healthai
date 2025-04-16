@@ -1,5 +1,4 @@
 "use client"
-
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
 import React from 'react'
@@ -30,8 +29,8 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>
-        <div className='h-screen w-screen'>
-        {!isActive('/') ?<><div className='h-22'>
+        <div className='h-screen w-screen bg-black'>
+        {isActive('/profile') || isActive('/profile')  ?<><div className='h-22'>
 
 </div>
 <div className={`h-14 w-full flex justify-center gap-x-5 items-center px-5 `}>
