@@ -32,7 +32,7 @@ const page = () => {
     {"option": "Applied to me to a considerable degree", "val":0},
     {"option":"Applied to me very much", "val":0},
   ];
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState([]);
   const [state, setstate] = useState(false);
   const [result, setresult] = useState("");
   const handleChange = (event) => {
