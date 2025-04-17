@@ -97,7 +97,7 @@ const page = () => {
     <label className="block text-white text-md font-bold mb-2">
       {data}
     </label>
-    <div className="flex flex-col space-y-4">
+    <div className=" space-y-4">
       {options.map((option, index) => (
         <label
           key={index}
